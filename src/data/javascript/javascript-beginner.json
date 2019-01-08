@@ -1,4 +1,10 @@
 {
     "title" : "JavaScript - first steps",
-    "date" : 1546897983526
+    "date" : 1546897983526,
+    "pages" : [{
+        "nodes" : [{
+            "type" : "h1",
+            "content" : "JavaScript - Beginner" 
+        }]
+    }]
 }

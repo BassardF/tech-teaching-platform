@@ -19,6 +19,12 @@ export default ({ children }) => (
               childJson {
                 title
                 date
+                pages { 
+                  nodes {
+                    type
+                    content
+                  }
+                }
               }
             }
           }
@@ -32,7 +38,7 @@ export default ({ children }) => (
       console.log('base', base)
       return (
       <Layout>
-        <SEO title="Page two" />
+        <SEO title="JavaScript - Beginner" description="Lean JavaScript, beginner level" />
         <h1>Hi from the second page</h1>
         <Link to="/">Go back to the homepage</Link>
         {children}
